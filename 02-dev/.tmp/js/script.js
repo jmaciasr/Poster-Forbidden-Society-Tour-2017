@@ -1,0 +1,4 @@
+'use strict';
+
+var deck = document.getElementById('deck');
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvc3Rlci5qcyJdLCJuYW1lcyI6WyJkZWNrIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50QnlJZCJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFJQSxPQUFPQyxTQUFTQyxjQUFULENBQXdCLE1BQXhCLENBQVgiLCJmaWxlIjoic2NyaXB0LmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIGRlY2sgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnZGVjaycpXG4iXX0=

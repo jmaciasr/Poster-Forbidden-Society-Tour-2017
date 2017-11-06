@@ -1,0 +1,43 @@
+.l-content {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.l-group {
+  @include micro-clearfix;
+}
+
+.group {
+  @include micro-clearfix;
+  margin: 0 auto;
+  max-width: 300px;
+
+	@include query(375px) {
+			max-width: 325px;		
+	}
+
+	@include query(412px) {
+		max-width: 342px;		
+	}
+
+	@include query(600px) {
+		max-width: 550px;		
+	}    
+
+	@include query(768px) {
+		max-width: 718px;		
+	}
+
+	@include query(960px) {
+		max-width: 910px;		
+	}
+
+	@include query(1024px) {
+		max-width: 976px;		
+	}
+
+	@include query(1200px) {
+		max-width: 1200px;		
+	}
+}
+

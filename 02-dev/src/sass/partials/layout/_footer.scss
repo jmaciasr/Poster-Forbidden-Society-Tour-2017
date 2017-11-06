@@ -1,0 +1,25 @@
+footer {
+	margin-top: -65px;
+	text-align: center;
+	img{
+		width: 50px;
+	}
+
+	p {
+		display: inline;
+		padding-right: 10px;
+	}
+
+    @include query(414px) {
+			margin-top: -25px;
+	} 
+
+	@include query(600px) {
+			margin-top: 2%;	 		
+	}
+
+	@include query(768px) {
+			margin-top: 20%;	 		
+	}
+     
+}

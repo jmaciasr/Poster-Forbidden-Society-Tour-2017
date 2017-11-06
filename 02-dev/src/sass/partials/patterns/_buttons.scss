@@ -1,0 +1,19 @@
+.btn {
+    color: $color-contrast;
+    cursor: pointer;
+    font-family: $font-family-contrast;
+    padding: 10px 20px;
+    -webkit-transition: all .4s; /* Safari */
+    transition: all .4s;
+}
+
+.btn--principal {
+    background-color: $color-base;
+
+    &:hover {
+        background-color: $color-contrast;
+    	color: $color-base; 
+
+    }
+}
+
